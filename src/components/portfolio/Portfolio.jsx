@@ -25,6 +25,15 @@ const Portfolio = () => {
                 <span className={activeFilter === 0 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { setItems(Menu); setActiveFilter(0) }}>
                     All
                 </span>
+                <span className={activeFilter === 3 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Api"); setActiveFilter(2) }}>
+                    Api
+                </span>
+                <span className={activeFilter === 4 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("MongoDB"); setActiveFilter(2) }}>
+                    MongoDB
+                </span>
+                <span className={activeFilter === 5 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("SQL"); setActiveFilter(2) }}>
+                    SQL
+                </span>
                 <span className={activeFilter === 1 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("2022"); setActiveFilter(1) }}>
                     2022
                 </span>

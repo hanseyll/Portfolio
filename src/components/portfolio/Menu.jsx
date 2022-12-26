@@ -8,7 +8,7 @@ const Menu = [
         id: 1,
         image: project1,
         title: "Latin american orchestras",
-        category: ["2022"],
+        category: ["2022","Api","React","SQL"],
         url: "https://www.miorquesta.net/",
         repositoryUrl: "https://github.com/franciscoo11/PF-SoyHenry-MyOrchestra"
     },
@@ -16,7 +16,7 @@ const Menu = [
         id: 2,
         image: project2,
         title: "Dog breeds App",
-        category: ["2022"],
+        category: ["2022","Api","React","SQL"],
         url: "",
         repositoryUrl: "https://github.com/hanseyll/websiteDogsUsingApi-React-Express-Nodejs-Redux-Sequelize"
     },
@@ -24,7 +24,7 @@ const Menu = [
         id: 3,
         image: project3,
         title: "Ecommerce",
-        category: ["2022"],
+        category: ["2022","Api","React"],
         url: "",
         repositoryUrl: "https://github.com/hanseyll/webSiteShopUsingApi-react-redux"
     },
@@ -32,7 +32,7 @@ const Menu = [
         id: 4,
         image: project4,
         title: "Notes App",
-        category: ["2022"],
+        category: ["2022","NodeJs","Passport","MongoDB"],
         url: "",
         repositoryUrl: "https://github.com/hanseyll/websiteAppNotes-NodeJs-Express-Mongodb"
     },
