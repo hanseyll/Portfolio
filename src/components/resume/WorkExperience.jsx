@@ -49,7 +49,7 @@ const WorkExperience = [
         id: 5,
         title: "Javascrip University",
         company: "Udemy",
-        yearsActive: "December 2022",
+        yearsActive: "February 2022-December 2022",
         information: [
             "I recently took a Javascript University course from Udemy. The course was taught by a professional programmer who had a lot of experience coding in Javascript. He was very knowledgeable and gave us a lot of helpful advice.",
             "The course was comprehensive, covering everything from the basics of the language to more advanced concepts. He used clear examples and provided us with plenty of practice exercises. We also had access to a community of other students who were taking the course. This was great for getting help and for discussing the course material.",
