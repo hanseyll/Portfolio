@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import Image from '../../assets/profileAboutMe.jpg';
+import Image from '../../assets/profilePhoto.jpg';
 import Resume from '../../assets/Javier_Gonzalez_Pacheco.pdf';
 import AboutBox from './AboutBox';
 
