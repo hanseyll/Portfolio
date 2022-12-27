@@ -52,7 +52,7 @@ const About = () => {
                             <li>Problem Solving</li>
                             <li>Emotional intelligence</li>
                         </ul>
-                        <button className="btn" onClick={downloadResume}>Donwload CV</button>
+                        <button className="btn" onClick={downloadResume}>Download CV</button>
                     </div>
 
 
