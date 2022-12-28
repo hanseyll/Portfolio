@@ -18,7 +18,7 @@ const Menu = [
         image: project2,
         title: "Dog breeds App",
         category: ["2022","Api","React","SQL"],
-        url: "",
+        url: "https://github.com/hanseyll/websiteDogsUsingApi-React-Express-Nodejs-Redux-Sequelize",
         repositoryUrl: "https://github.com/hanseyll/websiteDogsUsingApi-React-Express-Nodejs-Redux-Sequelize"
     },
     {
@@ -26,7 +26,7 @@ const Menu = [
         image: project3,
         title: "Ecommerce",
         category: ["2022","Api","React"],
-        url: "",
+        url: "https://github.com/hanseyll/webSiteShopUsingApi-react-redux",
         repositoryUrl: "https://github.com/hanseyll/webSiteShopUsingApi-react-redux"
     },
     {
@@ -34,7 +34,7 @@ const Menu = [
         image: project4,
         title: "Notes App",
         category: ["2022","NodeJs","Passport","MongoDB"],
-        url: "",
+        url: "https://github.com/hanseyll/websiteAppNotes-NodeJs-Express-Mongodb",
         repositoryUrl: "https://github.com/hanseyll/websiteAppNotes-NodeJs-Express-Mongodb"
     },
     {
@@ -42,8 +42,8 @@ const Menu = [
         image: project5,
         title: "Weather App",
         category: ["2022","Api","React"],
-        url: "",
-        repositoryUrl: "https://github.com/hanseyll/websiteAppNotes-NodeJs-Express-Mongodb"
+        url: "https://github.com/hanseyll/WeatherAppUsingApi-React",
+        repositoryUrl: "https://github.com/hanseyll/WeatherAppUsingApi-React"
     },
     
 ];
