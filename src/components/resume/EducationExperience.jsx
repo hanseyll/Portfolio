@@ -1,4 +1,4 @@
-const WorkExperience = [
+const EducationExperience = [
     {
         id: 1,
         title: "Fullstack Web developer",
@@ -6,8 +6,8 @@ const WorkExperience = [
         yearsActive: "August 2022 - December 2022",
         information: [
             "Full stack developer with approximately 700+ hours of programming with techs such as Javascript, HTML, CSS Node, React, Redux,Git and SQL, by the way, I wanted to go a little further so I added some techs in the different projects that I did in this Bootcamp, techs as Typescript, PostgreSQL, Prisma, and NextJs. I worked with the agile methodology Scrum in my group work and libraries such as Auth0, MercadoPago, Cloudinary, etc.",
-            "I did some Individual projects where apply techs as Node, Express, react, redux, Javascript and SQL",
-            "I did a group project where I had contributions in controller,routes, database models, cloudnary, payment gateway and login with auth0"
+            "I did some Individual projects where apply techs as Node, Express, react, redux, Javascript and SQL.",
+            "I did a group project where I had contributions in controller,routes, database models, cloudnary, payment gateway and login with auth0."
         ],
         certify:"https://certificates.soyhenry.com/cert?id=8f4a93c7-4c44-4eee-a2a8-ceaba7d39d64"
     },
@@ -59,4 +59,4 @@ const WorkExperience = [
     },
 ];
 
-export default WorkExperience;
+export default EducationExperience;

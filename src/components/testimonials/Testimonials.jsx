@@ -17,7 +17,7 @@ const Testimonials = () => {
 			image: Image1,
 			title: "Francisco Giudicatti",
 			subtitle: "Backend developer",
-			comment: "Javier is a programmer who is incredibly talented and hardworking. He is dedicated to producing high-quality work and always puts forth his best effort. He is patient and willing to help out when needed and is very knowledgeable when it comes to coding. He is also great at problem solving and always has creative solutions to any issues that arise",
+			comment: "Javier is a programmer who is incredibly talented and hardworking. He is dedicated to producing high-quality work and always puts forth his best effort. He is patient and willing to help out when needed and is very knowledgeable when it comes to coding. He is also great at problem solving and always has creative solutions to any issues that arise.",
 		},
 		{
 			id: 2,

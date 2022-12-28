@@ -3,7 +3,7 @@ import "./Resume.css";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import Button from "./Button";
 
-import WorkExperience from "./WorkExperience";
+import EducationExperience from "./EducationExperience";
 
 const Resume = () => {
     const [tabIndex, setTabIndex] = useState(0);
@@ -21,7 +21,7 @@ const Resume = () => {
                     selectedTabPanelClassName={"is-active"}
                 >
                     <TabList className="tab__list">
-                        {WorkExperience.map((experience, index) => {
+                        {EducationExperience.map((experience, index) => {
                             const { id, company } = experience;
                             return (
                                 <Tab className="tab" key={`company-${id}`}>
@@ -31,7 +31,7 @@ const Resume = () => {
                         })}
                     </TabList>
 
-                    {WorkExperience.map((experience) => {
+                    {EducationExperience.map((experience) => {
                         const { id, company, yearsActive, title, information,certify } = experience;
                         return (
                             <TabPanel className="tab__panel" key={`panel-${id}`}>
