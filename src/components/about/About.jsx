@@ -20,7 +20,7 @@ const About = () => {
                 <div className="about__data grid">
                     <div className="about__info">
                         <p className="about__description">
-                        Im a Backend developer with approximately 700+ hours of programming with techs such as Javascript, HTML, CSS Node, React, Redux, Git, SQL, etc. I'm a minimalist, objective and peaceful person, I am attracted to the issue of dealing with errors that may arise when coding because I like to test myself... I consider myself a proactive person who is always looking to go beyond what he knows Through perseverance and tenacity, I am usually very honest with myself and with others, I faithfully believe that this is what has helped me advance on my path as a programmer since it has allowed me to draw strong lines between what I should do a review and which I really couldn't understand. I enjoy talking to people and it doesn't really bother me that some people think differently to me, on the contrary, it is enriching for me to know different points of view, which has led me to be a very flexible person and open to new Ideas.
+                        Im a Backend developer with approximately 1000+ hours of programming with techs such as HTML, CSS, Javascript, Node, React, Express, Sequelize, etc. I'm a minimalist, objective and peaceful person, I am attracted to the issue of dealing with errors that may arise when coding because I like to test myself... I consider myself a proactive person who is always looking to go beyond what he knows Through perseverance and tenacity, I am usually very honest with myself and with others, I faithfully believe that this is what has helped me advance on my path as a programmer since it has allowed me to draw strong lines between what I should do a review and which I really couldn't understand. I enjoy talking to people and it doesn't really bother me that some people think differently to me, on the contrary, it is enriching for me to know different points of view, which has led me to be a very flexible person and open to new Ideas.
                         </p>
 
                         <h4 >Tech Skills</h4>
@@ -36,6 +36,7 @@ const About = () => {
                             <li>SQL</li>
                             <li>Prisma</li>
                             <li>Express</li>
+                            <li>Sequelize</li>
                             <li>Docker</li>
                         </ul>
                         <h4>Soft Skills</h4>
