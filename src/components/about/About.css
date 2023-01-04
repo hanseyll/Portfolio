@@ -131,8 +131,10 @@
     top: -20px;
   }
 
-  #about__img {
-    justify-self: center;
+  #about__img{
+  
+    border-radius: 200px;
+    width: 10px;
   }
 
   .about__box {

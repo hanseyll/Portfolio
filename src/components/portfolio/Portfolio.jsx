@@ -28,11 +28,17 @@ const Portfolio = () => {
                 <span className={activeFilter === 3 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Api"); setActiveFilter(2) }}>
                     Api
                 </span>
-                <span className={activeFilter === 4 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("MongoDB"); setActiveFilter(2) }}>
-                    MongoDB
+                <span className={activeFilter === 4 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("NoSQL"); setActiveFilter(2) }}>
+                    NoSQL
                 </span>
                 <span className={activeFilter === 5 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("SQL"); setActiveFilter(2) }}>
                     SQL
+                </span>
+                <span className={activeFilter === 6 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Java"); setActiveFilter(2) }}>
+                    Java
+                </span>
+                <span className={activeFilter === 7 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Javascript"); setActiveFilter(2) }}>
+                    Javascript
                 </span>
                 <span className={activeFilter === 1 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("2022"); setActiveFilter(1) }}>
                     2022
@@ -60,7 +66,7 @@ const Portfolio = () => {
                                 <div className="portfolio__mask"></div>
                             </div>
 
-                            <span className="portfolio__category">{category.join(', ')}</span>
+                            <span className="portfolio__category">{category.join(' - ')}</span>
                             <h3 className="portfolio__title">{title}</h3>
                             <a href={url} target="_blank" rel="noreferrer" className="portfolio__button">
                                 <RiLink className="portfolio__button-icon" />
