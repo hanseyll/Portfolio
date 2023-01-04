@@ -10,7 +10,7 @@ const Menu = [
         id: 1,
         image: project1,
         title: "Latin american orchestras",
-        category: ["2022","Api","React","Javascript","SQL","Auth0"],
+        category: ["2022","Api","React","Typescript","SQL","Auth0"],
         url: "https://www.miorquesta.net/",
         repositoryUrl: "https://github.com/franciscoo11/PF-SoyHenry-MyOrchestra"
     },

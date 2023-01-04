@@ -17,8 +17,8 @@ const AboutBox = () => {
                 <RiCupLine className='about__icon' />
 
                 <div>
-                    <h3 className="about__title">10</h3>
-                    <span className="about__subtitle">Github Repositories</span>
+                    <h3 className="about__title">6</h3>
+                    <span className="about__subtitle">Github Projects</span>
                 </div>
             </div>
 

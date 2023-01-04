@@ -40,6 +40,9 @@ const Portfolio = () => {
                 <span className={activeFilter === 7 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Javascript"); setActiveFilter(2) }}>
                     Javascript
                 </span>
+                <span className={activeFilter === 7 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Typescript"); setActiveFilter(2) }}>
+                    Typescript
+                </span>
                 <span className={activeFilter === 1 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("2022"); setActiveFilter(1) }}>
                     2022
                 </span>
