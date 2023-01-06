@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 import Image from '../../assets/profilePhoto.jpg';
-import Resume from '../../assets/Javier_Gonzalez_Pacheco.pdf';
+import Resume from '../../assets/CV-Javier-Jose-Gonzalez-Pacheco.pdf';
 import AboutBox from './AboutBox';
 
 const About = () => {
@@ -20,7 +20,11 @@ const About = () => {
                 <div className="about__data grid">
                     <div className="about__info">
                         <p className="about__description">
-                        Im a Backend developer with approximately 1000+ hours of programming with techs such as HTML, CSS, Javascript, Node, React, Express, Sequelize, etc. I'm a minimalist, objective and peaceful person, I am attracted to the issue of dealing with errors that may arise when coding because I like to test myself... I consider myself a proactive person who is always looking to go beyond what he knows Through perseverance and tenacity, I am usually very honest with myself and with others, I faithfully believe that this is what has helped me advance on my path as a programmer since it has allowed me to draw strong lines between what I should do a review and which I really couldn't understand. I enjoy talking to people and it doesn't really bother me that some people think differently to me, on the contrary, it is enriching for me to know different points of view, which has led me to be a very flexible person and open to new Ideas.
+                        I am a Backend Developer with experience in web development and software engineering. I have a strong understanding of object-oriented programming and database design. I have worked with multiple languages, including Java and Javascript. I have experience building robust, scalable web applications using the latest technologies and frameworks.
+
+I am a quick learner and strive to stay up-to-date with the latest technologies in the software engineering space. I am passionate about creating quality software and am always looking for ways to improve my workflow. I am a self-motivated individual and enjoy working with a team to solve complex problems. I am comfortable working with tight deadlines and can handle multiple tasks at once.
+
+I am looking to join a team where I can continue to learn and grow as a developer while contributing to the success of the organization.
                         </p>
 
                         <h4 >Tech Skills</h4>
@@ -28,15 +32,15 @@ const About = () => {
                         <ul className="about__list">
                             <li>JavaScript</li>
                             <li>TypeScript</li>
-                            <li>React</li>
-                            <li>Redux</li>
-                            <li>Node.js</li>
-                            <li>PostgreSQL</li>
-                            <li>AWS</li>
-                            <li>SQL</li>
-                            <li>Prisma</li>
+                            <li>Node</li>
                             <li>Express</li>
-                            <li>Sequelize</li>
+                            <li>Java</li>
+                            <li>SpringBoot</li>
+                            <li>PostgreSQL</li>
+                            <li>MongoDB</li>
+                            <li>AWS</li>
+                            <li>React</li>
+                            <li>Adavanced English(C1)</li>
                             <li>Docker</li>
                         </ul>
                         <h4>Soft Skills</h4>
