@@ -54,6 +54,14 @@ const Menu = [
         url: "https://github.com/hanseyll/CrudUsers-Java-SQLITE",
         repositoryUrl: "https://github.com/hanseyll/CrudUsers-Java-SQLITE"
     },
+    {
+        id: 7,
+        image: project6,
+        title: "Java CRUD",
+        category: ["2023","Java","NoSQL"],
+        url: "https://github.com/hanseyll/CrudUsers-Java-MongoDB",
+        repositoryUrl: "https://github.com/hanseyll/CrudUsers-Java-MongoDB"
+    },
     
 ];
 
