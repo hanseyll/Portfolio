@@ -2,7 +2,12 @@
   grid-template-columns: 3fr 9fr;
   column-gap: 1.875rem;
 }
-
+#about__img{
+  
+  border-radius: 180px;
+ 
+ 
+}
 .about__data {
   padding: 1.875rem;
   background-color: var(--container-color);
@@ -134,7 +139,13 @@
   #about__img{
   
     border-radius: 200px;
-    width: 10px;
+   
+  }
+  .image_about{
+    border-radius: 200px !important;
+  }
+  img{
+    border-radius: 200px;
   }
 
   .about__box {

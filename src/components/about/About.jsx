@@ -15,7 +15,10 @@ const About = () => {
             <h2 className="section__title">About Me </h2>
 
             <div className="about__container grid">
-                <img src={Image} alt=""/>
+                <div className='image_about'>
+                <img src={Image} alt="" id='about__img'/>
+                </div>
+                
 
                 <div className="about__data grid">
                     <div className="about__info">
