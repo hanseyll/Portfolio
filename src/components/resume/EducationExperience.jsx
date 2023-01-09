@@ -32,7 +32,7 @@ const EducationExperience = [
             "My experience at Academy English Parlingo has been great! The teachers are incredibly knowledgeable and passionate about the English language. They go out of their way to make sure that their students are learning in a fun and engaging way. The curriculum is well-structured, and the lessons are always interesting and enjoyable. I've learned a lot during my time here, and I'm confident that I'll be able to use the skills I've gained in the real world.",
             "I'm really proud of myself for getting a 90% average in Academy English Parlingo! It took a lot of hard work and dedication, but it was worth it. I started off by spending extra time on the material to make sure I understood the concepts. Then, I tried to practice as much as I could, using practice tests and quizzes to see what I knew and what I still needed to learn. Finally, I made sure to review my work after each assignment so that I could identify any mistakes and learn from them. All in all, I'm really glad I put in the effort and am proud of the outcome."
         ],
-        certify:"https://drive.google.com/file/d/16QuWgHfzLv7FLO65GnkHeZSX_qJfwhw9/view?usp=share_link"
+        certify:"https://drive.google.com/file/d/1-s2T_Lpes6vcghV4H8XdNlngnVWyN81T/view?usp=share_link"
     },
     {
         id: 4,
@@ -47,7 +47,7 @@ const EducationExperience = [
 
     {
         id: 5,
-        title: "Javascrip University",
+        title: "Javascript University",
         company: "Udemy",
         yearsActive: "February 2022 - December 2022",
         information: [
