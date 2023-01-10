@@ -4,6 +4,7 @@ import project3 from "../../assets/project3.png";
 import project4 from "../../assets/project4.png";
 import project5 from "../../assets/project5.png"
 import project6 from "../../assets/projectCrud.png"
+import project7 from "../../assets/project7.png";
 
 const Menu = [
     {
@@ -61,6 +62,14 @@ const Menu = [
         category: ["2023","Java","NoSQL"],
         url: "https://github.com/hanseyll/CrudUsers-Java-MongoDB",
         repositoryUrl: "https://github.com/hanseyll/CrudUsers-Java-MongoDB"
+    },
+    {
+        id: 8,
+        image: project7,
+        title: "Sudoku",
+        category: ["2023","Java"],
+        url: "https://github.com/hanseyll/Sudoku-Java",
+        repositoryUrl: "https://github.com/hanseyll/Sudoku-Java"
     },
     
 ];

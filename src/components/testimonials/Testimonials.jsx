@@ -31,7 +31,7 @@ const Testimonials = () => {
 	return (
 		<section className="testimonials container section">
 
-			<h2 className="section__title">Testimonials</h2>
+			<h2 className="section__title section__title__testimonials">Testimonials</h2>
 
 			<Swiper className="testimonial__container grid"
 				modules={[Pagination]}
