@@ -3,14 +3,13 @@
 
 :root {
   /*=============== Colors ===============*/
-  --first-color: #557996;
-  --title-color: hsl(218, 11%, 69%);
-  --text-color: hsl(0, 0%, 100%);
-  --body-color: hsl(0, 0%, 12.5%);
-  --container-color: hsl(0, 0%, 22%);
 
-  --shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.2);
-  --border-color: rgba(167, 174, 185, 0.1);
+  --first-color: #557996;
+  --title-color: hsl(244, 100%, 26%);
+  --text-color: hsl(244, 16%, 43%);
+  --body-color: hsl(258, 60%, 98%);
+  --container-color: #fff;
+  --border-color: rgba(0, 0, 0, 0.05);
 
   /*=============== Font and Typohraphy ===============*/
   --body-font: "Noto Sans", san-serif;
@@ -36,11 +35,13 @@
 [data-theme="dark"] {
 
   --first-color: #557996;
-  --title-color: hsl(244, 100%, 26%);
-  --text-color: hsl(244, 16%, 43%);
-  --body-color: hsl(258, 60%, 98%);
-  --container-color: #fff;
-  --border-color: rgba(0, 0, 0, 0.05);
+  --title-color: hsl(218, 11%, 69%);
+  --text-color: hsl(0, 0%, 100%);
+  --body-color: hsl(0, 0%, 12.5%);
+  --container-color: hsl(0, 0%, 22%);
+
+  --shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.2);
+  --border-color: rgba(167, 174, 185, 0.1);
 }
 
 /*=============== Responsive Typohraphy ===============*/
