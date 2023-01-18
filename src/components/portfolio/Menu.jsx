@@ -6,6 +6,7 @@ import project5 from "../../assets/project5.png"
 import project6 from "../../assets/projectCrud.png"
 import project7 from "../../assets/project7.png";
 import project8 from "../../assets/project8.png";
+import project9 from "../../assets/project9.png"
 
 const Menu = [
     {
@@ -75,6 +76,14 @@ const Menu = [
         {
         id: 9,
         image: project8,
+        title: "Coronavirus tracker",
+        category: ["2023","Java","Springboot","Api"],
+        url: "https://github.com/hanseyll/CoronavirusTrackerApp-Java-Springboot",
+        repositoryUrl: "https://github.com/hanseyll/CoronavirusTrackerApp-Java-Springboot"
+    },
+    {
+        id: 10,
+        image: project9,
         title: "Facebook App",
         category: ["2023","Auth","Java","Springboot","SQL"],
         url: "https://github.com/hanseyll/facebookCloneBackend-Java-Springboot-Mysql",
