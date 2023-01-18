@@ -106,7 +106,8 @@
 .tab__panel-title {
   font-size: var(--h3-font-size);
   margin-bottom: 1rem;
-  color: var(--title-color);
+  color: var(--text-color);
+  font-weight: bolder;
 }
 
 [data-theme="dark"] .tab__panel-title {

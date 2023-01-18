@@ -25,23 +25,32 @@ const Portfolio = () => {
                 <span className={activeFilter === 0 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { setItems(Menu); setActiveFilter(0) }}>
                     All
                 </span>
-                <span className={activeFilter === 3 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Api"); setActiveFilter(2) }}>
+                <span className={activeFilter === 3 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Api"); setActiveFilter(3) }}>
                     Api
                 </span>
-                <span className={activeFilter === 4 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("NoSQL"); setActiveFilter(2) }}>
+                <span className={activeFilter === 4 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("NoSQL"); setActiveFilter(4) }}>
                     NoSQL
                 </span>
-                <span className={activeFilter === 5 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("SQL"); setActiveFilter(2) }}>
+                <span className={activeFilter === 5 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("SQL"); setActiveFilter(5) }}>
                     SQL
                 </span>
-                <span className={activeFilter === 6 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Java"); setActiveFilter(2) }}>
+                <span className={activeFilter === 6 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Java"); setActiveFilter(6) }}>
                     Java
                 </span>
-                <span className={activeFilter === 7 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Javascript"); setActiveFilter(2) }}>
+                <span className={activeFilter === 10 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Springboot"); setActiveFilter(10) }}>
+                    Springboot
+                </span>
+                <span className={activeFilter === 7 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Javascript"); setActiveFilter(7) }}>
                     Javascript
                 </span>
-                <span className={activeFilter === 7 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Typescript"); setActiveFilter(2) }}>
+                <span className={activeFilter === 11 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Node"); setActiveFilter(11) }}>
+                    Node
+                </span>
+                <span className={activeFilter === 8 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Typescript"); setActiveFilter(8) }}>
                     Typescript
+                </span>
+                <span className={activeFilter === 9 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Auth"); setActiveFilter(9) }}>
+                    Auth
                 </span>
                 <span className={activeFilter === 1 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("2022"); setActiveFilter(1) }}>
                     2022

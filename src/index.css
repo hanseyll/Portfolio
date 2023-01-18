@@ -4,10 +4,10 @@
 :root {
   /*=============== Colors ===============*/
 
-  --first-color: #557996;
-  --title-color: hsl(244, 100%, 26%);
-  --text-color: hsl(244, 16%, 43%);
-  --body-color: hsl(258, 60%, 98%);
+  --first-color: #afaa9b;
+  --title-color: #F4F4F4;
+  --text-color: #A1A7B6;
+  --body-color: #E9D2B0;
   --container-color: #fff;
   --border-color: rgba(0, 0, 0, 0.05);
 
